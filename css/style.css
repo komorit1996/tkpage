@@ -1,7 +1,5 @@
 @charset "utf-8";
 
-
-
 /*リセットCSS（sanitize.css）の読み込み
 ---------------------------------------------------------------------------*/
 @import url("https://unpkg.com/sanitize.css");
@@ -13,8 +11,6 @@
 /*slick.cssの読み込み
 ---------------------------------------------------------------------------*/
 @import url("https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css");
-
-
 
 /*全体の設定
 ---------------------------------------------------------------------------*/
@@ -281,7 +277,7 @@ ul.icon img:hover {
 	width: 12px;			/*ボタンの幅*/
 	height: 12px;			/*ボタンの高さ*/
 	border-radius: 50%;		/*丸くする指定*/
-	background: #fff;		/*背景色。白。*/
+	background: red;		/*背景色。白。*/
 }
 
 /*buttonのアクティブ時（現在表示されている画像を示すボタン）*/
